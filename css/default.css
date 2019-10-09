@@ -1,0 +1,11 @@
+.clear:after{/*清除浮动*/
+    content: ".";
+    display: block;
+    clear: both;
+    height: 0;
+    overflow: hidden;
+}
+.clear{/*为IE6，7的兼容性设置*/
+    *zoom:1;
+}
+
